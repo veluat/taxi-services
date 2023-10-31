@@ -7,7 +7,7 @@ import {Services} from "../services/Services";
 
 export const Home = () => {
     return (
-        <div>
+        <div className="home-box">
             <div className="home-image-container">
                 <img src={home} alt="taxi services website" className="home-image"/>
                 <div className="slogan">

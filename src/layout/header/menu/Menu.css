@@ -25,13 +25,52 @@
     color: #FF5500;
 }
 
-.services select {
-    padding: 5px;
-    border-radius: 4px;
-    background-color: #f2f2f2;
-    width: max-content;
+@media screen and (max-width: 800px) {
+    .list {
+        display: none;
+    }
+
+    .nav.open .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav.open .list li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .burger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+    }
+
+    .burger-menu .bar {
+        width: 100%;
+        height: 2px;
+        background-color: #000;
+        transition: all 0.3s ease;
+    }
+
+    .burger-menu.open .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 5px);
+    }
+
+    .burger-menu.open .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger-menu.open .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -5px);
+    }
 }
 
-.padding {
-    margin-left: 5px;
+.services select {
+    padding: 5px;
 }

@@ -9,7 +9,7 @@ export const Header = () => {
 
     const handleHomeClick = () => {
         if (location.pathname === '/') {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            window.scrollTo({top: 0, behavior: 'smooth'});
         } else {
             window.location.href = '/';
         }
@@ -21,7 +21,7 @@ export const Header = () => {
                 <img className={"img"} src={logo} alt="taxi services"/>
                 <NavLink to={'/'} onClick={handleHomeClick}>Taxi services</NavLink>
             </div>
-                <Menu/>
+            <Menu/>
         </header>
-);
+    );
 };
