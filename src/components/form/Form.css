@@ -7,9 +7,15 @@
 }
 
 .form-title {
+    padding: 20px;
+    text-align: center;
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 20px;
+    background-color: rgba(255, 242, 158, 0.71);
+    box-shadow: 0 0 10px rgba(68, 68, 68, 0.5), 0 0 20px rgba(68, 68, 68, 0.3);
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .form {
@@ -21,6 +27,7 @@
     border: 2px solid #ccc;
     border-radius: 8px;
     background-color: rgba(255, 242, 158, 0.71);
+    box-shadow: 0 0 10px rgba(68, 68, 68, 0.5), 0 0 20px rgba(68, 68, 68, 0.3);
 }
 
 .form-label {
@@ -42,7 +49,7 @@
 }
 
 .form-input:focus {
-    border: 2px solid #007bff;
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.5), 0 0 20px rgba(255, 102, 0, 0.3);
     outline: none;
 }
 
@@ -55,13 +62,13 @@
 }
 
 .form-policy-link {
-    color: #007bff;
+    color: #FF6600;
     text-decoration: none;
     margin-left: 5px;
 }
 
 .form-button {
-    background-color: #007bff;
+    background-color: #FF6600;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -74,5 +81,6 @@
 }
 
 .form-button:hover {
-    background-color: #0056b3;
+    background-color: #FF5500;
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.5), 0 0 20px rgba(255, 102, 0, 0.3);
 }

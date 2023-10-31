@@ -1,28 +1,16 @@
 import React from 'react';
 import driver from '../../../../../assets/img/taxi_driver.webp';
 import './Driver.css';
-import {NavLink} from "react-router-dom";
 
-export const Driver = ({more, small}) => {
-
-    const finalyImg = small ? "driver-image driver-small" : "driver-image"
+export const Driver = () => {
 
     return (
         <div className="driver">
-            <img src={driver} alt="drunk driver" className={finalyImg}/>
+            <img src={driver} alt="drunk driver" className={"driver-image"}/>
             <div className="driver-text">
                 <h2>Responsible Assistance</h2>
-                {more?
-                    <div>
-                        Are you faced with a situation where a friend or loved one has had a few drinks and is in no
-                        condition to drive? At our taxi service, we prioritize the safety and well-being of everyone on the
-                        road. We understand that responsible choices are essential, especially when it comes to preventing
-                        accidents caused by drunk driving. That's why we offer a unique service designed to help those who
-                        find themselves in such situations
-                        <NavLink to={'/driver'}>...more</NavLink>
-                    </div> :
                 <p>
-                    <b style={{ fontSize: "24px" }}>Helping a Friend in Need</b>
+                    <b style={{fontSize: "24px"}}>Helping a Friend in Need</b>
                     <br/>
                     <br/>
                     Are you faced with a situation where a friend or loved one has had a few drinks and is in no
@@ -50,7 +38,10 @@ export const Driver = ({more, small}) => {
                     and secure ride back home.
                     <br/>
                     <br/>
-                    We understand that accidents happen, and sometimes we make poor choices. However, it's crucial to address these situations responsibly. By utilizing our Responsible Assistance program, you not only prevent potential harm to yourself and others but also demonstrate your commitment to making safer choices.
+                    We understand that accidents happen, and sometimes we make poor choices. However, it's crucial to
+                    address these situations responsibly. By utilizing our Responsible Assistance program, you not only
+                    prevent potential harm to yourself and others but also demonstrate your commitment to making safer
+                    choices.
                     <br/>
                     <br/>
                     Please remember that it's always better to be safe than sorry. If you or someone you know has had
@@ -61,7 +52,7 @@ export const Driver = ({more, small}) => {
                     Together, let's promote a culture of responsible decision-making and prioritize the safety of
                     everyone on the road. Trust our taxi service to be your reliable partner when it matters the most.
                     Give us a call and let us assist you in getting you and your vehicle home safely.
-                </p>}
+                </p>
             </div>
         </div>
     );

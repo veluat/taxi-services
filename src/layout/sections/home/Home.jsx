@@ -16,7 +16,6 @@ export const Home = () => {
                 </div>
             </div>
             <div className="home-content">
-                <h2 className="home-section-title">Our Services</h2>
                 <Services/>
                 <About/>
                 <OrderNow/>

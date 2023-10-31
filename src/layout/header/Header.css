@@ -4,15 +4,30 @@
     justify-content: space-between;
     margin-bottom: 40px;
     padding-left: 20px;
-    background-color: rgba(255, 242, 158, 0.71);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 242, 158, 1);
+    box-shadow: 0 0 10px rgba(68, 68, 68, 0.5), 0 0 20px rgba(68, 68, 68, 0.3);
+    position: sticky;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .logo {
     display: flex;
     align-items: center;
+}
+
+.logo a {
     font-size: 28px;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.logo a:hover {
+    color: #FF5500;
 }
 
 .img {
