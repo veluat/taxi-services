@@ -31,6 +31,12 @@
     color: #FF5500;
 }
 
+@media screen and (max-width: 820px) {
+    .logo a {
+        display: none;
+    }
+}
+
 .img {
     width: 80px;
     height: 80px;

@@ -3,6 +3,7 @@ import logo from './../../assets/img/title.png'
 import {Menu} from "./menu/Menu";
 import './Header.css';
 import {NavLink, useLocation} from "react-router-dom";
+import {BurgerMenu} from "./burger-menu/BurgerMenu";
 
 export const Header = () => {
     const location = useLocation();
@@ -22,6 +23,7 @@ export const Header = () => {
                 <NavLink to={'/'} onClick={handleHomeClick}>Taxi services</NavLink>
             </div>
             <Menu/>
+            <BurgerMenu/>
         </header>
     );
 };
