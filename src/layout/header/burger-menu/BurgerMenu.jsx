@@ -23,7 +23,7 @@ export const BurgerMenu = () => {
 
     return (
         <nav className="burger-nav">
-            <button onClick={onClickHandler} className={`burger-icon ${isMenuOpen ? 'burger-icon-x' : ''}`}>
+            <button onClick={onClickHandler} className={`burger-icon ${isMenuOpen ? 'x' : ''}`}>
                 <span></span>
             </button>
             {isMenuOpen && (<div className={"burger-menu-popup"}>

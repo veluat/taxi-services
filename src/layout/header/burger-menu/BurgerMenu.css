@@ -85,11 +85,11 @@ a {
     transform: translateY(10px);
 }
 
-.burger-icon-x {
+.x > span {
     background-color: rgba(255, 255, 255, 0);
 }
 
-.burger-icon-x > span::before {
+.x > span::before {
     content: "";
     display: block;
     width: 36px;
@@ -99,7 +99,7 @@ a {
     transform: rotate(-45deg) translateY(0);
 }
 
-.burger-icon-x > span::after {
+.x > span::after {
     content: "";
     display: block;
     width: 36px;
