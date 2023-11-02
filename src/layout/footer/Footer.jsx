@@ -29,10 +29,10 @@ export const Footer = () => {
                     <NavLink to={'/privacy-policy'}>Privacy policy</NavLink>
                 </div>
                 <div className="contact-info">
-                    <p>Our location: <a href="https://maps.google.com/maps?q=13, north laos, Phou Khoun, Laos">13, north
-                        laos, Phou Khoun, Laos</a></p>
-                    <p>Phone: <a href="tel:+856 20 22 006 626">+856 20 22 006 626</a></p>
-                    <p>Email: <a href="mailto:support@domain.do">support@domain.com</a></p>
+                     <a href="https://maps.google.com/maps?q=13, north laos, Phou Khoun, Laos">Our location<p>13, north
+                        laos, Phou Khoun, Laos</p></a>
+                    <a href="tel:+856 20 22 006 626">Phone<p>+856 20 22 006 626</p></a>
+                    <a href="mailto:support@domain.do">Email<p>support@domain.com</p></a>
                 </div>
             </footer>
         </div>
