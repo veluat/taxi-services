@@ -41,7 +41,7 @@ export const PrivacyPolicy = () => {
                 - Operating system
                 - Referral source
                 - Pages visited and time spent on the Service
-                - Clickstream data
+                - Click stream data
 
                 We collect this information automatically through the use of cookies, log files, and similar
                 technologies. You can control the use of cookies through your browser settings.</p>

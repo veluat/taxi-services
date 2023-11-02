@@ -1,12 +1,10 @@
 import React, {useState} from 'react';
-import {NavLink, useLocation} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './BurgerMenu.css';
 import logo from "../../../assets/img/title.png";
 
 export const BurgerMenu = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    const location = useLocation();
 
     const onClickHandler = () => {
         setIsMenuOpen(!isMenuOpen)
