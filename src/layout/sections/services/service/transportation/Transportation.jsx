@@ -4,10 +4,11 @@ import './Transportation.css';
 
 export const Transportation = () => {
     return (
+        <section className="transportation-wrapper">
+            <h2 className="transportation-title">Transportation of passengers</h2>
         <div className="transportation">
             <img src={transportation} alt="transportation of passengers" className={"transportation-image"}/>
             <div className={"transportation-text"}>
-                <h3>Transportation</h3>
                 <p>
                     Welcome to our premier passenger transportation service, where we specialize in providing
                     exceptional travel experiences tailored to your needs. Whether you're a business
@@ -83,5 +84,6 @@ export const Transportation = () => {
                 </p>
             </div>
         </div>
+        </section>
     );
 };

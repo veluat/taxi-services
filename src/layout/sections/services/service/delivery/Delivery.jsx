@@ -5,10 +5,11 @@ import './Delivery.css';
 export const Delivery = () => {
 
     return (
+        <section className="delivery-wrapper">
+            <h2 className="delivery-title">Cargo delivery</h2>
         <div className="delivery">
             <img src={delivery} alt="transporting a cargo" className={"delivery-image"}/>
             <div className="delivery-text">
-                <h2>Cargo delivery</h2>
                 <p>
                     Introducing our versatile taxi service, where we go beyond transporting passengers and offer
                     reliable cargo delivery solutions. Whether you need to transport documents, packages, or larger
@@ -51,6 +52,7 @@ export const Delivery = () => {
                 </p>
             </div>
         </div>
+        </section>
     );
 };
 

@@ -4,10 +4,11 @@ import './Battery.css';
 
 export const Battery = () => {
     return (
+        <section className="battery-wrapper">
+            <h2 className="battery-title">Battery charge</h2>
         <div className="battery">
             <img src={battery} alt="battery charge" className={"battery-image"}/>
             <div className="battery-text">
-                <h2>Battery charge</h2>
                 <p>
                     Introducing our innovative taxi service that goes the extra mile to provide assistance when you
                     find yourself stranded with a dead battery. We understand the frustration and inconvenience of a
@@ -53,6 +54,7 @@ export const Battery = () => {
                 </p>
             </div>
         </div>
+        </section>
     );
 };
 

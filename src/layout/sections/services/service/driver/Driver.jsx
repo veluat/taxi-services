@@ -5,12 +5,13 @@ import './Driver.css';
 export const Driver = () => {
 
     return (
+        <section className="driver-wrapper">
+            <h2 className="driver-title">Responsible Assistance</h2>
         <div className="driver">
             <img src={driver} alt="drunk driver" className={"driver-image"}/>
             <div className="driver-text">
-                <h2>Responsible Assistance</h2>
                 <p>
-                    <b style={{fontSize: "24px"}}>Helping a Friend in Need</b>
+                    <h3 style={{fontSize: "24px", textAlign: "center", margin: "0"}}>Helping a Friend in Need</h3>
                     <br/>
                     <br/>
                     Are you faced with a situation where a friend or loved one has had a few drinks and is in no
@@ -55,6 +56,7 @@ export const Driver = () => {
                 </p>
             </div>
         </div>
+        </section>
     );
 };
 

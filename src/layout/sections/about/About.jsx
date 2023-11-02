@@ -4,7 +4,7 @@ import './About.css';
 
 export const About = () => {
     return (
-        <section>
+        <section className="about-wrapper">
             <h2 className="about-title">About Taxi Services</h2>
             <div className="about">
                 <img src={about} alt="about taxi services" className="about-image"/>

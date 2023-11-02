@@ -14,11 +14,6 @@ export const BurgerMenu = () => {
 
     const handleNavLinkClick = () => {
         setIsMenuOpen(!isMenuOpen);
-        if (location.pathname === '/') {
-            window.scrollTo({top: 0, behavior: 'smooth'});
-        } else {
-            window.location.href = '/';
-        }
     };
 
     return (
