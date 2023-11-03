@@ -23,7 +23,8 @@ export const About = () => {
                         <br/>
                         <br/>
                         Safety is our utmost priority. All our vehicles undergo regular maintenance to guarantee their
-                        road-worthiness, and our drivers are experienced and trained in defensive driving techniques. You
+                        road-worthiness, and our drivers are experienced and trained in defensive driving techniques.
+                        You
                         can relax and enjoy your ride, knowing that you are in safe hands.
                         <br/>
                         <br/>
@@ -54,6 +55,5 @@ export const About = () => {
                 </div>
             </div>
         </section>
-
     );
 };

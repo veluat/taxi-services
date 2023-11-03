@@ -59,7 +59,6 @@ export const BurgerMenu = () => {
                     </li>
                 </ul>
             </div>)}
-
         </nav>
     );
 };

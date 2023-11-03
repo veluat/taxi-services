@@ -15,7 +15,7 @@
     right: 0;
     bottom: 0;
     z-index: 9999;
-    background-color: rgba(255, 242, 158, 1);
+    background-color: var(--primary-background);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,7 +57,7 @@
     width: 200px;
     height: 200px;
     z-index: 999999;
-    background-color: rgba(255, 242, 158, 1);
+    background-color: var(--primary-background);
     border: none;
 }
 

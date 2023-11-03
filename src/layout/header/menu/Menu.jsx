@@ -33,6 +33,9 @@ export const Menu = () => {
         }
     };
 
+    const handleNavClick = () => {
+        setSelectedService('');
+    }
 
     return (
         <nav className="menu-nav">
@@ -55,13 +58,13 @@ export const Menu = () => {
                 </li>
                 <li>
                     <SvgSelector svgName={'order-now'}/>
-                    <NavLink to={'/order-now'} className="padding" onClick={handleNavLinkClick}>
+                    <NavLink to={'/order-now'} className="padding" onClick={handleNavClick}>
                         Order now
                     </NavLink>
                 </li>
                 <li>
                     <SvgSelector svgName={'about'}/>
-                    <NavLink to={'/about'} className="padding" onClick={handleNavLinkClick}>
+                    <NavLink to={'/about'} className="padding" onClick={handleNavClick}>
                         About Us
                     </NavLink>
                 </li>

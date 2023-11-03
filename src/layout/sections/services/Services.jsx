@@ -27,9 +27,7 @@ export const Services = () => {
                     </div>
                 </div>
                 <div className="service-container">
-
                     <img src={delivery} alt="Cargo delivery" className="service-image"/>
-
                     <div className="services-text-content">
                         <h3>Cargo delivery</h3>
                         <p>Introducing our versatile taxi service, where we go beyond transporting passengers and offer
@@ -42,9 +40,7 @@ export const Services = () => {
                     </div>
                 </div>
                 <div className="service-container">
-
                     <img src={driver} alt="Responsible Assistance" className="service-image"/>
-
                     <div className="services-text-content">
                         <h3>Responsible Assistance</h3>
                         <p>Are you faced with a situation where a friend or loved one has had a few drinks and is in no
@@ -59,9 +55,7 @@ export const Services = () => {
                     </div>
                 </div>
                 <div className="service-container">
-
                     <img src={battery} alt="Battery charge" className="service-image"/>
-
                     <div className="services-text-content">
                         <h3>Battery charge</h3>
                         <p>Introducing our innovative taxi service that goes the extra mile to provide assistance when

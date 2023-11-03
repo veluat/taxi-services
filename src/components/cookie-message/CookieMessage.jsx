@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { NavLink } from "react-router-dom";
+import React, {useState} from 'react';
+import {NavLink} from "react-router-dom";
 import './CookieMessage.css';
 
 export const CookieMessage = () => {
@@ -24,7 +24,8 @@ export const CookieMessage = () => {
             <p>
                 This website uses cookies to improve your experience.
                 <br/>
-                By continuing to use this site, you consent to the use of <NavLink to={'/cookie-policy'}>cookies</NavLink>.
+                By continuing to use this site, you consent to the use of <NavLink
+                to={'/cookie-policy'}>cookies</NavLink>.
             </p>
             <div className="cookie-btn-box">
                 <button onClick={handleAcceptCookies}>Accept</button>

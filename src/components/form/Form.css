@@ -1,5 +1,7 @@
+@import "./../../assets/style/variables.css";
+
 .form-wrapper {
-    padding: 0 20px;
+    padding: var(--body-padding);
 }
 
 .form-container {
@@ -15,8 +17,8 @@
     text-align: center;
     font-size: 32px;
     font-weight: bold;
-    background-color: rgba(255, 242, 158, 0.71);
-    box-shadow: 0 0 10px rgba(68, 68, 68, 0.5), 0 0 20px rgba(68, 68, 68, 0.3);
+    background-color: var(--primary-background);
+    box-shadow: var(--shadow);
     border-radius: 20px;
     padding: 20px;
 }
@@ -27,10 +29,10 @@
     align-items: flex-start;
     width: 60%;
     padding: 20px;
-    border: 2px solid #ccc;
+    border: 2px solid var(--border-color);
     border-radius: 8px;
-    background-color: rgba(255, 242, 158, 0.71);
-    box-shadow: 0 0 10px rgba(68, 68, 68, 0.5), 0 0 20px rgba(68, 68, 68, 0.3);
+    background-color: var(--primary-background);
+    box-shadow: var(--shadow);
 }
 
 .form-label {
@@ -45,10 +47,10 @@
     -moz-appearance: none;
     width: 96%;
     padding: 10px;
-    border: 2px solid #ccc;
+    border: 2px solid var(--border-color);
     border-radius: 4px;
     margin: 10px 0;
-    background-color: #f2f2f2;
+    background-color: var(--background);
 }
 
 @media screen and (max-width: 576px) {
@@ -58,7 +60,7 @@
 }
 
 .form-input:focus {
-    box-shadow: 0 0 10px rgba(255, 102, 0, 0.5), 0 0 20px rgba(255, 102, 0, 0.3);
+    box-shadow: var(--primary-box-shadow);
     outline: none;
 }
 
@@ -71,13 +73,13 @@
 }
 
 .form-policy-link {
-    color: #FF6600;
+    color: var(--primary-color);
     text-decoration: none;
     margin-left: 5px;
 }
 
 .form-button {
-    background-color: #FF6600;
+    background-color: var(--primary-color);
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -90,8 +92,8 @@
 }
 
 .form-button:hover {
-    background-color: #FF5500;
-    box-shadow: 0 0 10px rgba(255, 102, 0, 0.5), 0 0 20px rgba(255, 102, 0, 0.3);
+    background-color: var(--primary-hover-color);
+    box-shadow: var(--primary-box-shadow);
 }
 
 @media screen and (max-width: 400px) {
