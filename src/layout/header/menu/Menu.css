@@ -21,6 +21,10 @@
     color: rgb(0, 0, 0);
 }
 
+.list li:last-child {
+    margin-right: 0;
+}
+
 .list li a {
     color: rgb(0, 0, 0);
     text-decoration: none;

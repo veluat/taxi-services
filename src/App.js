@@ -17,23 +17,25 @@ import {CookiePolicy} from "./components/cookie-policy/CookiePolicy";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
-                <Header/>
-                <CookieMessage/>
-                <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/transportation" element={<Transportation/>}/>
-                    <Route path="/delivery" element={<Delivery/>}/>
-                    <Route path="/driver" element={<Driver/>}/>
-                    <Route path="/battery" element={<Battery/>}/>
-                    <Route path="/thank-you" element={<ThankYou/>}/>
-                    <Route path="/about" element={<About/>}/>
-                    <Route path="/order-now" element={<OrderNow/>}/>
-                    <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
-                    <Route path="/cookie-policy" element={<CookiePolicy/>}/>
-                </Routes>
-                <Footer/>
-            </BrowserRouter>
+            <div className="main-container">
+                <BrowserRouter>
+                    <Header/>
+                    <CookieMessage/>
+                    <Routes>
+                        <Route path="/" element={<Home/>}/>
+                        <Route path="/transportation" element={<Transportation/>}/>
+                        <Route path="/delivery" element={<Delivery/>}/>
+                        <Route path="/driver" element={<Driver/>}/>
+                        <Route path="/battery" element={<Battery/>}/>
+                        <Route path="/thank-you" element={<ThankYou/>}/>
+                        <Route path="/about" element={<About/>}/>
+                        <Route path="/order-now" element={<OrderNow/>}/>
+                        <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+                        <Route path="/cookie-policy" element={<CookiePolicy/>}/>
+                    </Routes>
+                    <Footer/>
+                </BrowserRouter>
+            </div>
         </div>
     );
 }
