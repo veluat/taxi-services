@@ -1,3 +1,4 @@
 .privacy-policy {
     padding: var(--text-padding);
+    text-align: justify;
 }
