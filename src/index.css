@@ -1,3 +1,8 @@
+*::selection {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
 body {
     box-sizing: border-box;
     background-color: var(--background);
@@ -21,3 +26,5 @@ code {
     height: 100%;
     margin: 0 auto;
 }
+
+
