@@ -31,6 +31,10 @@
     box-shadow: var(--shadow);
 }
 
+.service-container div:last-child:active {
+    transform: translateY(2px);
+}
+
 .service-image {
     width: 300px;
     object-fit: cover;

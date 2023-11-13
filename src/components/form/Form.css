@@ -96,6 +96,10 @@
     box-shadow: var(--primary-box-shadow);
 }
 
+.form-button:active {
+    transform: translateY(2px);
+}
+
 @media screen and (max-width: 400px) {
     .form-button {
         width: 150px;
