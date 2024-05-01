@@ -7,7 +7,7 @@ export const About = () => {
         <section className="about-wrapper">
             <h2 className="about-title">About Taxi Services</h2>
             <div className="about">
-                <img src={about} alt="about taxi services" className="about-image"/>
+                <img src={`${about}`} alt="about taxi services" className="about-image"/>
                 <div className="about-content">
                     <p className="about-description">
                         Welcome to our premier taxi services! We pride ourselves on delivering top-notch transportation

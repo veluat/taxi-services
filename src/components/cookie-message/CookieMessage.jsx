@@ -25,7 +25,7 @@ export const CookieMessage = () => {
                 This website uses cookies to improve your experience.
                 <br/>
                 By continuing to use this site, you consent to the use of <NavLink
-                to={'/cookie-policy'}>cookies</NavLink>.
+                to={'/cookie-policy'} onClick={() => window.scrollTo(0, 0)}>cookies</NavLink>.
             </p>
             <div className="cookie-btn-box">
                 <button onClick={handleAcceptCookies}>Accept</button>

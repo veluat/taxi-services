@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+## Example of a business website Taxi Services
+The project is a business website that provides taxi services with the ability to order online.
+___
+:link: Demo can be found in the [Taxi Services](https://example-of-a-business-website.netlify.app/).
+___
+### The following libraries are included in the project
+* react
+    * react-dom
+    * react-router-dom
+* javascript
+* css
+___
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+:white_check_mark: Project on Taxi Services with Online Booking provides a convenient way to choose and order various taxi services. It demonstrates an example of designing a business website using a menu component. Possible improvements include expanding functionality, integrating a payment system, and mobile adaptation. This project can serve as a foundation for the development of a more comprehensive and user-friendly web application for taxi services.
 
-## Available Scripts
+![Taxi Services](src/assets/read-me/taxi-2.gif)
 
-In the project directory, you can run:
+:white_check_mark: The site provides simple navigation with menus and links so that users can easily navigate through sections of the site.
 
-### `npm start`
+![Taxi Services](src/assets/read-me/taxi-1.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+:white_check_mark: Users can place orders for the necessary services directly on the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Taxi Services](src/assets/read-me/taxi-submit.gif)
 
-### `npm test`
+:white_check_mark: Mobile adaptation: adaptive and responsive interface for ease of use on smartphones and tablets.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Taxi Services](src/assets/read-me/taxi-3.gif)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+:white_check_mark:
+* Functionality expansion: 
+    * It is possible to add new types of services or additional options for selection.
+* Payment system integration: 
+    * Adding the ability for online payment for the convenience of customers.
+* Implementation of authorization and a personal account.

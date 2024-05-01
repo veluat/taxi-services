@@ -13,10 +13,6 @@ export const Form = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (!acceptedPolicy) {
-            alert("You must accept the privacy policy to proceed.")
-            return;
-        }
         setSubmitted(true);
     };
 
@@ -77,12 +73,13 @@ export const Form = () => {
                             type="checkbox"
                             id="acceptPolicy"
                             name="acceptPolicy"
+                            required
                             checked={acceptedPolicy}
                             onChange={(e) => setAcceptedPolicy(e.target.checked)}
                             className="form-checkbox"
                         />
                         <span>I accept </span>
-                        <Link to="/privacy-policy" className="form-policy-link">Privacy policy</Link>
+                        <Link to="/privacy-policy" onClick={() => window.scrollTo(0, 0)} className="form-policy-link">Privacy policy</Link>
                     </label>
                     <button type={'submit'} className="form-button">Order</button>
                 </form>

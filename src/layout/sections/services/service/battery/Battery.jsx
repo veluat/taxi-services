@@ -7,7 +7,7 @@ export const Battery = () => {
         <section className="battery-wrapper">
             <h2 className="battery-title">Battery charge</h2>
             <div className="battery">
-                <img src={battery} alt="battery charge" className={"battery-image"}/>
+                <img src={`${battery}`} alt="battery charge" className={"battery-image"}/>
                 <div className="battery-text">
                     <p>
                         Introducing our innovative taxi service that goes the extra mile to provide assistance when you

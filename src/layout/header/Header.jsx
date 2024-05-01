@@ -19,7 +19,7 @@ export const Header = () => {
     return (
         <header className={"wrapper"}>
             <div className={"logo"}>
-                <img className={"img"} src={logo} alt="taxi services"/>
+                <img className={"img"} src={`${logo}`} alt="taxi services"/>
                 <NavLink to={'/'} onClick={handleHomeClick}>Taxi services</NavLink>
             </div>
             <Menu/>

@@ -1,15 +1,15 @@
 import React, {useEffect, useState} from 'react';
-import {NavLink, useLocation, useNavigate} from 'react-router-dom';
+import {NavLink, useNavigate} from 'react-router-dom';
 import {SvgSelector} from '../../../components/svgSelector/svgSelector';
 import './Menu.css';
+import {ServiceContext} from "../../../App";
 
 export const Menu = () => {
-    const [selectedService, setSelectedService] = useState('');
     const navigate = useNavigate();
-    const location = useLocation();
-
+    const { selectedService, setSelectedService } = React.useContext(ServiceContext)
     const handleServiceChange = (e) => {
         setSelectedService(e.target.value);
+        window.scrollTo(0, 0)
     };
 
     useEffect(() => {
@@ -22,19 +22,16 @@ export const Menu = () => {
         } else if (selectedService === 'battery') {
             navigate('/battery');
         }
+        window.scrollTo(0, 0);
     }, [selectedService, navigate]);
 
     const handleNavLinkClick = () => {
-        setSelectedService('');
-        if (location.pathname === '/') {
-            window.scrollTo({top: 0, behavior: 'smooth'});
-        } else {
-            window.location.href = '/';
-        }
+        window.scrollTo(0, 0)
     };
 
     const handleNavClick = () => {
         setSelectedService('');
+        window.scrollTo(0, 0);
     }
 
     return (

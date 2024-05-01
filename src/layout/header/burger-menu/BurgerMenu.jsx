@@ -12,6 +12,7 @@ export const BurgerMenu = () => {
 
     const handleNavLinkClick = () => {
         setIsMenuOpen(!isMenuOpen);
+        window.scrollTo(0, 0)
     };
 
     return (
@@ -20,7 +21,7 @@ export const BurgerMenu = () => {
                 <span></span>
             </button>
             {isMenuOpen && (<div className={"burger-menu-popup"}>
-                <img className={"img"} src={logo} alt="taxi services"/>
+                <img className={"img"} src={`${logo}`} alt="taxi services"/>
                 <ul>
                     <li>
                         <NavLink to={'/'} className="burger-menu-padding" onClick={handleNavLinkClick}>

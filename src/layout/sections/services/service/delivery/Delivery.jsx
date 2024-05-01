@@ -7,7 +7,7 @@ export const Delivery = () => {
         <section className="delivery-wrapper">
             <h2 className="delivery-title">Cargo delivery</h2>
             <div className="delivery">
-                <img src={delivery} alt="transporting a cargo" className={"delivery-image"}/>
+                <img src={`${delivery}`} alt="transporting a cargo" className={"delivery-image"}/>
                 <div className="delivery-text">
                     <p>
                         Introducing our versatile taxi service, where we go beyond transporting passengers and offer

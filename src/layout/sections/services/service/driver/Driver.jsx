@@ -8,7 +8,7 @@ export const Driver = () => {
         <section className="driver-wrapper">
             <h2 className="driver-title">Responsible Assistance</h2>
             <div className="driver">
-                <img src={driver} alt="drunk driver" className={"driver-image"}/>
+                <img src={`${driver}`} alt="drunk driver" className={"driver-image"}/>
                 <div className="driver-text">
                     <p>
                         <h3 style={{fontSize: "24px", textAlign: "center", margin: "0"}}>Helping a Friend in Need</h3>

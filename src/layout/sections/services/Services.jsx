@@ -12,7 +12,7 @@ export const Services = () => {
             <h2 className="services-title">Our Services</h2>
             <div className="services-flex">
                 <div className="service-container">
-                    <img src={transport} alt="Transportatiton" className="service-image"/>
+                    <img src={`${transport}`} alt="Transportatiton" className="service-image"/>
                     <div className="services-text-content">
                         <h3>Transportation</h3>
                         <p>Welcome to our premier passenger transportation service, where we specialize in providing
