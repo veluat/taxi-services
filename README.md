@@ -1,5 +1,5 @@
 # Demo website Taxi Services
-The project is a demo website that provides taxi services with the ability to order online.
+**The project is a demo website that provides taxi services with the ability to order online.**
 ___
 :link: **Demo can be found in the [Taxi Services](https://taxi-services-layout.netlify.app/)**
 ___
@@ -27,9 +27,10 @@ ___
 
 ![Taxi Services](src/assets/read-me/taxi-3.gif)
 
-:white_check_mark:
-* Functionality expansion: 
-    * It is possible to add new types of services or additional options for selection.
-* Payment system integration: 
-    * Adding the ability for online payment for the convenience of customers.
-* Implementation of authorization and a personal account.
+:white_check_mark: **Enhancement:**
+* Expanding functionality: 
+    * Adding new service types or additional options.
+* Integrating payment system:
+    * Enabling online payment for customer convenience.
+* Implementing authentication and personal accounts:
+    * Introducing user authorization and personal user profiles.
