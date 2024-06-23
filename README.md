@@ -1,9 +1,9 @@
-## Example of a business website Taxi Services
-The project is a business website that provides taxi services with the ability to order online.
+# Demo website Taxi Services
+The project is a demo website that provides taxi services with the ability to order online.
 ___
-:link: Demo can be found in the [Taxi Services](https://example-of-a-business-website.netlify.app/).
+:link: **Demo can be found in the [Taxi Services](https://example-of-a-business-website.netlify.app/)**
 ___
-### The following libraries are included in the project
+## The following libraries are included in the project
 * react
     * react-dom
     * react-router-dom
