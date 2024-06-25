@@ -1,9 +1,9 @@
 # 🚕 Demo website Taxi Services
-## The project is a demo website that provides taxi services with the ability to order online.
+### The project is a demo website that provides taxi services with the ability to order online.
 ___
-## :link: Demo can be found in the [Taxi Services](https://taxi-services-layout.netlify.app/)
+### :link: Demo can be found in the [Taxi Services](https://taxi-services-layout.netlify.app/)
 ___
-## The following libraries are included in the project
+### The following libraries are included in the project
 * react
     * react-dom
     * react-router-dom
